@@ -1,7 +1,7 @@
 # htmlswf
 
 ## About
-* Embeds a .swf (flash) file into a .html (HTML) file and runs it in your default browser. For Mac and Linux, Windows Coming Soon!
+* Embeds a .swf (flash) file into a .html (HTML) file and runs it in your default browser. For Mac, Linux, and Windows!
 * Status: Working
 * Maintainer: Angad Tendulkar <angad.tendulkar@gmail.com>
 
