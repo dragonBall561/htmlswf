@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Set Some Variables and make some directories
+export swffile=$1
+export savedir=$HOME/.tmp/htmlswf
+mkdir $HOME/.tmp
+mkdir $savedir
+export savedircount=$(ls $savedir | wc -l) #Gets the number of files in $savedir
+export savefile=$savedir/"game$savedircount.html" #Thats the html file we're going to save it to
+
+
+export html="<style>body{margin:0;height:100%}</style><embed src="$swffile" width="100%" height="100%">" #Some Html code
+echo $html > $savefile #Write to the file
+
+#Open it with the default browser
+open $savefile
