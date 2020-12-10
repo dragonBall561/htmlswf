@@ -14,3 +14,6 @@
 ```
 htmlswf /home/****/path/to/file.swf
 ```
+## Thanks
+
+Thanks to whoever made [This](https://pastebin.com/tUJacCDN).
